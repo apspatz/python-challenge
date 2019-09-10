@@ -53,13 +53,13 @@ with open(csvpath,newline='')as csvfile:
     print(f"{winner} is the winner.")
     
     f= open("Election.txt","w+")
-    f.write("Election Results" "\r")
-    f.write("--------------------------" "\r")    
-    f.write(f"Total Votes: {count}" "\r")
-    f.write("--------------------------" "\r") 
+    f.write("Election Results" "\n")
+    f.write("--------------------------" "\n")    
+    f.write(f"Total Votes: {count}" "\n")
+    f.write("--------------------------" "\n") 
     for i in range(len(candidates)):
-        f.write(f"{candidates[i]}: {round(candpercent[i],2)}% ({candcount[i]} votes)\r")
-    f.write("--------------------------\r")
+        f.write(f"{candidates[i]}: {round(candpercent[i],2)}% ({candcount[i]} votes)\n")
+    f.write("--------------------------\n")
     f.write(f"{winner} is the winner.")
     f.close()       
     

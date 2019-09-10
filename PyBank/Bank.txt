@@ -1,1 +1,7 @@
-Financial Analysis--------------------------Months: 86Total Profits: $38382578Average Monthly Profit: $7803.48Largest Profit Month: Feb-2012; Profit: $1170593Largest Loss Month: Sep-2013; Profit: $-1196225
+Financial Analysis
+--------------------------
+Months: 86
+Total Profits: $38382578
+Average Monthly Profit: $7803.48
+Largest Profit Month: Feb-2012; Profit: $1170593
+Largest Loss Month: Sep-2013; Profit: $-1196225
